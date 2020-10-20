@@ -9,13 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                NavigationLink(destination: RightPersonView()){
+                    Text("Musicplayer").font(.system(size:45)).fontWeight(.bold)
+                        .foregroundColor(.buttonColor)
+                }
+            }
+            .navigationBarTitle(Text("中國有嘻哈"),   displayMode: .inline)
+        }
     }
 }
-
-struct ContentView_Previews: PreviewProvider {
+struct ContentView_Previews:PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            NavigationView {
+                ContentView()
+            }
+        }
     }
 }

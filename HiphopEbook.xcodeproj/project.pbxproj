@@ -13,6 +13,9 @@
 		B235E1B0253DDC390042CEC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B235E1AF253DDC390042CEC8 /* Preview Assets.xcassets */; };
 		B235E1BB253DDC390042CEC8 /* HiphopEbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235E1BA253DDC390042CEC8 /* HiphopEbookTests.swift */; };
 		B235E1C6253DDC390042CEC8 /* HiphopEbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235E1C5253DDC390042CEC8 /* HiphopEbookUITests.swift */; };
+		B235E1D7253DDC820042CEC8 /* willt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235E1D6253DDC820042CEC8 /* willt.swift */; };
+		B235E1DC253DDC9B0042CEC8 /* rappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235E1DB253DDC9B0042CEC8 /* rappers.swift */; };
+		B235E1E1253DDCB30042CEC8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235E1E0253DDCB30042CEC8 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		B235E1C1253DDC390042CEC8 /* HiphopEbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiphopEbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B235E1C5253DDC390042CEC8 /* HiphopEbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiphopEbookUITests.swift; sourceTree = "<group>"; };
 		B235E1C7253DDC390042CEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B235E1D6253DDC820042CEC8 /* willt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = willt.swift; sourceTree = "<group>"; };
+		B235E1DB253DDC9B0042CEC8 /* rappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rappers.swift; sourceTree = "<group>"; };
+		B235E1E0253DDCB30042CEC8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				B235E1A8253DDC370042CEC8 /* HiphopEbookApp.swift */,
 				B235E1AA253DDC370042CEC8 /* ContentView.swift */,
+				B235E1D6253DDC820042CEC8 /* willt.swift */,
+				B235E1DB253DDC9B0042CEC8 /* rappers.swift */,
+				B235E1E0253DDCB30042CEC8 /* Extensions.swift */,
 				B235E1AC253DDC390042CEC8 /* Assets.xcassets */,
 				B235E1B1253DDC390042CEC8 /* Info.plist */,
 				B235E1AE253DDC390042CEC8 /* Preview Content */,
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B235E1E1253DDCB30042CEC8 /* Extensions.swift in Sources */,
+				B235E1D7253DDC820042CEC8 /* willt.swift in Sources */,
+				B235E1DC253DDC9B0042CEC8 /* rappers.swift in Sources */,
 				B235E1AB253DDC370042CEC8 /* ContentView.swift in Sources */,
 				B235E1A9253DDC370042CEC8 /* HiphopEbookApp.swift in Sources */,
 			);
